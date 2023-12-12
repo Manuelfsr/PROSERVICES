@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <title>PROSERVICES@</title>
     <link rel="shortcut icon" href="src/multimedia/imagenes/Proservices@.svg">
 </head>
+
 <body>
     <div class="container-fluid">
 
@@ -49,27 +51,42 @@
                     </div>
                 </div>
 
-                <form>
+                <form name="formulario" action="mailto:proservices@gmail.com" method="post">
                     <div class="row mt-3">
                         <div class="col-sm-12">
-                            <input type="text" id="nombre" placeholder="Nombre">
+                            <input type="text" id="nombre" placeholder="Nombre" required maxlength="50">
                         </div>
                     </div>
+
                     <div class="row mt-3">
                         <div class="col-sm-12">
-                            <input type="text" id="apellidos" placeholder="Apellidos">
+                            <input type="text" id="apellidos" placeholder="Apellidos" required maxlength="100">
                         </div>
                     </div>
+
                     <div class="row mt-3">
                         <div class="col-sm-12">
-                            <input type="text" id="email" placeholder="Email">
+                            <input type="text" id="email" placeholder="Email" required>
                         </div>
                     </div>
+
                     <div class="row mt-3">
                         <div class="col-sm-12">
-                            <textarea id="mensaje" rows="6" placeholder="Mensaje"></textarea>
+                            <textarea id="mensaje" rows="6" placeholder="Mensaje" maxlength="300"></textarea>
                         </div>
                     </div>
+
+                    <div class="row mt-3">
+                        <div class="col-sm-12">
+                            <label class="col-4 rojo" for="tipoServicio">Perfil:</label>
+                            <select required class="col-8" id="tipoServicio" class="form-control">
+                                <option value="">Seleccione una opción...</option>
+                                <option value="PrestarServicios">Prestar servicios</option>
+                                <option value="ContratarServicios">Contratar servicios</option>
+                            </select>
+                        </div>
+                    </div>
+
                     <div class="row mt-4">
                         <div class="col-sm-3">
                             <button class="botonFormulario">Enviar mensaje</button>
@@ -97,10 +114,11 @@
                 <!-- Los divs icono tienen la clase fondoPlatino, que hace que pongan su fondo en el mismo color
                     que el footer, lo hice asi por que no se me ocurria la forma de cortar la linea que
                     va detras de los iconos del footer-->
-             
+
                 <div class="col-3 col-sm-2 col-lg-1 icono">
                     <div class="fondoPlatino">
-                        <img src="src/multimedia/iconos/youtube.png" alt="Icono que lleva a la cuenta de youtube de la empresa">
+                        <img src="src/multimedia/iconos/youtube.png"
+                            alt="Icono que lleva a la cuenta de youtube de la empresa">
                     </div>
                 </div>
                 <div class="col-3 col-sm-2 col-lg-1 icono">
@@ -108,16 +126,18 @@
                         <img src="src/multimedia/iconos/x.png" alt="Icono que lleva a la cuenta de x de la empresa">
                     </div>
                 </div>
-                  
+
                 <div class="col-3 col-sm-2 col-lg-1 icono">
                     <div class="fondoPlatino">
-                        <img src="src/multimedia/iconos/instagram.png" alt="Icono que lleva a la cuenta de instagram de la empresa">
+                        <img src="src/multimedia/iconos/instagram.png"
+                            alt="Icono que lleva a la cuenta de instagram de la empresa">
                     </div>
                 </div>
-                  
+
                 <div class="col-3 col-sm-2 col-lg-1 icono">
                     <div class="fondoPlatino">
-                        <img src="src/multimedia/iconos/facebook.png" alt="Icono que lleva a la cuenta de facebook de la empresa">
+                        <img src="src/multimedia/iconos/facebook.png"
+                            alt="Icono que lleva a la cuenta de facebook de la empresa">
                     </div>
                 </div>
 
@@ -126,4 +146,5 @@
     </div>
 
 </body>
+
 </html>

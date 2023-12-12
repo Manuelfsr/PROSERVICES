@@ -7,15 +7,15 @@
 
 /**COLORES DE FUENTE**/
 
-.rojo{
+.rojo {
     color: #D73B33;
 }
 
-.blanco{
+.blanco {
     color: #FFFFFF;
 }
 
-.negro{
+.negro {
     color: #000000;
 }
 
@@ -33,20 +33,21 @@
     background-color: #E7E5DF;
 }
 
+
 .fondoPlatinoOscuro {
     background-color: #D9D9D9;
 }
 
-.fondoBlanco{
+.fondoBlanco {
     background-color: #FFFFFF;
 }
 
-.fondoBigaro{
+.fondoBigaro {
     background-color: #ccd9ff;
 }
 
 /**CSS DEL CONTENIDO DE CONTACTO**/
-.formularioDeContacto{
+.formularioDeContacto {
     padding-top: 20px;
 }
 
@@ -56,16 +57,17 @@ input {
     outline: none;
     background-color: #ECE5E5;
     box-shadow: 5px 5px 17px #c8c8c8,
-            -5px -5px 17px #ffffff;
+        -5px -5px 17px #ffffff;
     border: 2px solid #bbacac;
     border-radius: 10px;
     transition: all .5s;
     color: #D73B33;
 }
+
 input:focus {
     background-color: #ECE5E5;
     box-shadow: inset 5px 5px 17px #c8c8c8,
-            inset -5px -5px 17px #ffffff;
+        inset -5px -5px 17px #ffffff;
 }
 
 textarea {
@@ -75,18 +77,36 @@ textarea {
     outline: none;
     background-color: #ECE5E5;
     box-shadow: 5px 5px 17px #c8c8c8,
-            -5px -5px 17px #ffffff;
+        -5px -5px 17px #ffffff;
     border: 2px solid #bbacac;
     border-radius: 10px;
     color: #D73B33;
 }
+
+select {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #ECE5E5;
+    box-shadow: 5px 5px 17px #c8c8c8,
+    -5px -5px 17px #ffffff;
+    border: 2px solid #bbacac;
+    color: #D73B33;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+
 textarea:focus {
     background-color: #ECE5E5;
     box-shadow: inset 5px 5px 17px #c8c8c8,
-            inset -5px -5px 17px #ffffff;
+        inset -5px -5px 17px #ffffff;
 }
 
-.botonFormulario{
+.botonFormulario {
     border: 2px solid #3e62cf;
     border-radius: 10px;
     height: 40px;
@@ -95,37 +115,38 @@ textarea:focus {
     background-color: #0C2D94;
     color: white;
     box-shadow: 5px 5px 17px #c8c8c8,
-            -5px -5px 17px #ffffff;
+        -5px -5px 17px #ffffff;
 }
 
-.botonFormulario:hover{
+.botonFormulario:hover {
     background-color: #4682e2;
 }
 
 /**     CSS DEL CONTENIDO DE DESCARGAS     **/
-.descargarEnEscritorio, .descargarEnMovil{
+.descargarEnEscritorio,
+.descargarEnMovil {
     padding: 40px 15px 104px;
 }
 
-.imgDeDescargaDeLaAppParaTuPlataforma{
+.imgDeDescargaDeLaAppParaTuPlataforma {
     width: 200px;
     height: 100px;
     border-radius: 15px;
 }
 
-.imgOrdenadorDescargas{
+.imgOrdenadorDescargas {
     width: 200px;
     height: 200px;
 }
 
 
-.imgPlataformaGooglePlay{
-    margin: -8px; 
+.imgPlataformaGooglePlay {
+    margin: -8px;
     height: 58px;
 }
 
-.imgPlataformaMicrosoft{
-    height: 40px; 
+.imgPlataformaMicrosoft {
+    height: 40px;
     border-radius: 7px;
 }
 
@@ -136,7 +157,7 @@ textarea:focus {
     width: 300px;
 }
 
-.contacto{
+.contacto {
     margin-bottom: 1.5em;
 }
 
@@ -164,7 +185,7 @@ footer {
 }
 
 
-.icono img{
+.icono img {
     width: 50%;
     border-radius: 50%;
 }
@@ -188,7 +209,7 @@ footer {
     z-index: 0;
 }
 
-.icono{
+.icono {
     text-align: center;
     z-index: 1;
 }
@@ -278,19 +299,21 @@ footer {
     font-size: 1.5em;
 }
 
-.cardpaso{
+.cardpaso {
     border-radius: 40px;
     padding: 30px;
     margin-bottom: 40px;
     margin-bottom: 40px;
-    
+
 }
-.pasos{
+
+.pasos {
     display: flex;
 }
 
-.paso{
+.paso {
     flex: 1;
+
 }
 
 /**CSS DE TESTIMONIOS**/

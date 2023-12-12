@@ -12,11 +12,34 @@
 <body>
     <div class="container-fluid">
         <header>
-            
+
+        <header class="row fondoAzul">
+            <div class="textoHeader col-lg-4 d-none d-lg-flex">
+                <h1 class="tituloHeader blanco">Transformamos tu potencial en éxito laboral</h1>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-4">
+                <a href="index.html"><img src="src/multimedia/imagenes/Proservices@.svg" alt="Logotipo Proservices"
+                        class="logo"></a>
+            </div>
+
+            <div class="textoHeader col-sm-6 col-lg-4 d-none d-sm-flex">
+                <h1 class="tituloHeader blanco">Descubre tu camino profesional con nosotros</h1>
+            </div>
+
         </header>
+
+        <nav class="row menu">
+            <ul class="row">
+                <li class="col-12 col-sm-6 col-lg-3"><a href="index.html">Home</a></li>
+                <li class="col-12 col-sm-6 col-lg-3"><a href="descargas.html">Descargar</a></li>
+                <li class="col-12 col-sm-6 col-lg-3"><a href="contacto.html">Contacto</a></li>
+                <li class="col-12 col-sm-6 col-lg-3"><a href="testimonios.html">Testimonios</a></li>
+            </ul>
+        </nav>
     </div>
 
-    <div class="container">
+    <div class="container contacto">
         <main>
 
             <section class="formularioDeContacto">
@@ -45,7 +68,7 @@
                     </div>
                     <div class="row mt-3">
                         <div class="col-sm-12">
-                            <textarea id="mensaje" class="auto-resize" rows="6" placeholder="Mensaje"></textarea>
+                            <textarea id="mensaje" rows="6" placeholder="Mensaje"></textarea>
                         </div>
                     </div>
                     <div class="row mt-4">
@@ -60,9 +83,46 @@
         </main>
     </div>
 
-    <div class="container-fluid">
-        <footer>
+    <div class="container-fluid fondoPlatino">
+        <footer class="row">
+            <div class="col-12 col-sm-6 col-lg-5 me-lg-5 mapa">
+                <img src="src/multimedia/imagenes/Localizacion.png" alt="Imagen de la localizacion de la empresa">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-5 infoContacto">
+                <h1>Contacto</h1>
+                <p>Email: proservices@gmail.com</p>
+                <p>Telefono: +34 652 259 584</p>
+                <p>Sede oficial: C/Reyes Catolicos-Murcia. 30220. Murcia</p>
+            </div>
+            <div class="row redes">
+                <!-- Los divs icono tienen la clase fondoPlatino, que hace que pongan su fondo en el mismo color
+                    que el footer, lo hice asi por que no se me ocurria la forma de cortar la linea que
+                    va detras de los iconos del footer-->
+             
+                <div class="col-3 col-sm-2 col-lg-1 icono">
+                    <div class="fondoPlatino">
+                        <img src="src/multimedia/iconos/youtube.png" alt="Icono que lleva a la cuenta de youtube de la empresa">
+                    </div>
+                </div>
+                <div class="col-3 col-sm-2 col-lg-1 icono">
+                    <div class="fondoPlatino">
+                        <img src="src/multimedia/iconos/x.png" alt="Icono que lleva a la cuenta de x de la empresa">
+                    </div>
+                </div>
+                  
+                <div class="col-3 col-sm-2 col-lg-1 icono">
+                    <div class="fondoPlatino">
+                        <img src="src/multimedia/iconos/instagram.png" alt="Icono que lleva a la cuenta de instagram de la empresa">
+                    </div>
+                </div>
+                  
+                <div class="col-3 col-sm-2 col-lg-1 icono">
+                    <div class="fondoPlatino">
+                        <img src="src/multimedia/iconos/facebook.png" alt="Icono que lleva a la cuenta de facebook de la empresa">
+                    </div>
+                </div>
 
+            </div>
         </footer>
     </div>
 

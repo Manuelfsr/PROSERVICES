@@ -19,6 +19,10 @@
     color: #000000;
 }
 
+.azul {
+    color: #0c2d94;
+}
+
 /**COLORES DE FONDO**/
 
 .fondoAzul {
@@ -27,6 +31,11 @@
 
 .fondoPlatino {
     background-color: #E7E5DF;
+}
+
+
+.fondoPlatinoOscuro {
+    background-color: #D9D9D9;
 }
 
 .fondoBlanco {
@@ -304,4 +313,61 @@ footer {
 
 .paso {
     flex: 1;
+
+}
+
+/**CSS DE TESTIMONIOS**/
+
+.centrado{
+    text-align: center;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.perfil{
+    text-align: center;  
+}
+
+.perfil img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+.cajaPerfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.estrella{
+    width: 17%;
+}
+
+.paddingPequeño{
+    padding: 0 5%;
+}
+
+.paddingMediano{
+    padding: 0 15%;
+}
+
+.paddingVerticalPequeño{
+    padding-top: 2%;
+}
+
+.tituloTestimonio{
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+.testimonio{
+    width: 97%;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+.nombrePerfil{
+    font-size: 0.7em;
 }
